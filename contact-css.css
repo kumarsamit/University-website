@@ -1,0 +1,70 @@
+.address-map{
+    width: 80%;
+    margin: 4% auto 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address-qurry{
+    width: 80%;
+    margin: auto;
+    background: #f5f5f5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.address-qurry>.address-qurry-col-2{
+    flex-basis: 48%;
+    max-width: 1000px;
+    
+}
+.address-qurry>.address-qurry-col-1{
+    flex-basis: 48%;
+    min-width: 280px;
+
+   
+}
+.address-qurry>.address-qurry-col-2>input{
+    background: transparent;
+    border:1px solid gray;
+    width: 60%;
+    height: 35px;
+    margin-top:15px;
+}
+.address-btn{
+    margin-top:15px;
+    margin-right: 60%;
+}
+.address-qurry>.address-qurry-col-2>textarea{
+    border:1px solid gray;
+    background: transparent;
+    margin-top: 15px;
+}
+.address-qurry>.address-qurry-col-2>input:focus,
+.address-qurry>.address-qurry-col-2>textarea:focus{
+    outline: none;
+}
+.address-qurry>.address-qurry-col-1>p{
+    margin: 30px 10px;
+    font-size: 18px;
+    color: #666;
+}
+.address-qurry>.address-qurry-col-1>p>.fa{
+    font-size: 24px;
+    color: #e42114;
+    margin: 0 10px;
+}
+@media screen and (max-width:700px){
+    .address-qurry>.address-qurry-col-1{
+            flex-basis: 90%;
+        }
+        .address-qurry>.address-qurry-col-2{
+            flex-basis: 90%;
+        } 
+        
+}
+
+
+

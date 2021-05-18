@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About-Eduford University</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viweport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="common.css"> 
+    <link rel="stylesheet" href="about-css.css">
+    <link rel="stylesheet" href="whyus-css.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="hero-page-sec" id="movetop">
+        <!--          header          -->
+        <div class="header" id="myHeader">
+           <div class="logo"><a href="index.html"> <img src="img/logo.png" alt=""></a></div>
+            <nav>
+                <ul id="MenuItems" >
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="why-us.html">WHY US?</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="menu"><img src="img/menu.png" alt="" onclick="menutoggle()"></div>
+        </div>
+        <!--      Hero text              -->
+        <div class="hero-text-sec">
+            <h1>Why Eduford?</h1>
+        </div>
+    </div>
+    <div class="why-us-cont">
+        <div class="why-us-card">
+            <img src="img/how-it-works-1.jpg" alt="">
+        </div>
+        <div class="why-us-card why-card-bg">
+            <h2> Student download the app</h2>
+            <p>No integration or hardware required.</p>
+        </div>
+
+        <div class="why-us-card why-card-bg">
+            <h2> Meet their coach</h2>
+            <p>Student get matched with their own professional coach.</p>
+        </div>
+        <div class="why-us-card">
+            <img src="img/how-it-works-2.jpg" alt="">
+        </div>
+
+        <div class="why-us-card">
+            <img src="img/how-it-works-3.jpg" alt="">
+        </div>
+        <div class="why-us-card why-card-bg">
+            <h2> Work with their coach</h2>
+            <p>Student book and participate in their coaching sessions via the app.</p>
+        </div>
+
+        <div class="why-us-card why-card-bg">
+            <h2> Unlock their  potetial</h2>
+            <p>Student feel supported, more engaged and perform at higher levels.</p>
+        </div>
+        <div class="why-us-card">
+            <img src="img/how-it-works-4.jpg" alt="">
+        </div>
+
+
+    </div>
+
+
+    <!-- move to top-->
+    <div class="movetotop" id="moveTop">
+        <a href="#movetop"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+
+
+
+
+        <!--            footer          -->
+        <div class="about-us">
+            <h1>About US</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur sequi voluptatibus dolores maiores autem est, veniam reiciendis non? Amet rerum laborum incidunt ipsam, hic alias adipisci explicabo expedita a velit!
+                veniam reiciendis non? Amet rerum laborum incidunt ipsam, hic alias adipisci explicabo expedita a velit!
+                hic alias adipisci explicabo expedita a velit!
+            </p>
+            <div class="icon">
+               <div class="icon-card">
+                <i style="color: #4267B2;" class="fa fa-facebook-square"></i>
+                <p>Facebook</p>
+               </div>
+
+               <div class="icon-card">
+                <i style="color: #C13584;" class="fa fa-instagram"></i>
+                <p>Instagram</p>
+               </div>
+
+               <div class="icon-card">
+                <i style="color: #27c0ff;" class="fa fa-twitter"></i>
+                <p>Twitter</p>
+               </div>
+
+               <div class="icon-card">
+                <i style="color: #0077b5;" class="fa fa-linkedin"></i>
+                <p>LinkedIn</p>
+               </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    Copyright EduFord Universiy-Wolrd's Largest University 
+                </p>
+              </div>
+        </div>
+
+        <!--       header toggle menu        -->
+    
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight="0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight=="0px")
+                {
+                    MenuItems.style.maxHeight="200px";
+                }
+            else
+                {
+                    MenuItems.style.maxHeight="0px";
+
+            }
+        }
+    </script>
+        <!--       testimonial slider         -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:false,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            },
+            1200:{
+                items:4
+            }
+        }
+    })
+    </script>
+
+    <!-- fixed header -->
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+    </script>
+
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+.why-us-cont{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+   
+}
+.why-us-cont>.why-us-card{
+    flex-basis: 40%;
+    margin-bottom: 4%;
+    min-width: 300px;
+}
+.why-us-cont>.why-us-card>img{
+    width: 80%;
+    margin-top: 10%;
+}
+.why-us-cont>.why-us-card>h2{
+    font-size:30px;
+    margin: 30% 0 0 0;
+
+}
+.why-us-cont>.why-us-card>p{
+    font-size:20px;
+    color: #777;
+}
+.why-card-bg{
+    background: #f5f5f5;
+    border-radius: 10px;
+    padding: 30px;
+}
