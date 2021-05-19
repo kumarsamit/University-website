@@ -5,6 +5,16 @@
     justify-content: center;
     align-items: center;
 }
+.address-map iframe{
+    width: 80%;
+    height: 50vh;
+}
+@media screen and (max-width:1080px){
+    .address-map iframe{
+        width: 90%;
+        height: 50vh;
+    }
+}
 .address-qurry{
     width: 80%;
     margin: auto;
@@ -17,8 +27,7 @@
 }
 .address-qurry>.address-qurry-col-2{
     flex-basis: 48%;
-    max-width: 1000px;
-    
+    max-width: 1000px; 
 }
 .address-qurry>.address-qurry-col-1{
     flex-basis: 48%;
